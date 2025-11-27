@@ -179,6 +179,8 @@ Frontend runs at:
 
 # 📸 Screenshots 
 
+### 🏠 Dashboard
+![Dashboard](screenshots/Screenshot%202025-11-28%20012852.png)
 
 
 ---

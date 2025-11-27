@@ -1,0 +1,116 @@
+###############################
+#     🔥 GLOBAL SETTINGS      #
+###############################
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.tmp
+*.temp
+*.bak
+*.old
+
+
+###############################
+#      🔥 BACKEND (.NET)      #
+###############################
+
+# Build outputs
+bin/
+obj/
+out/
+publish/
+
+# User specific Visual Studio files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# VS Code folder
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Rider & JetBrains
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+
+# Database
+*.mdf
+*.ldf
+*.db
+*.bak
+
+# ASP.NET Core secrets
+secrets.json
+
+# IIS publish
+wwwroot/
+
+
+###############################
+#   🔥 FRONTEND (React/Vite)  #
+###############################
+
+# Node modules
+node_modules/
+
+# Production build
+dist/
+build/
+
+# Local environment
+.env
+.env.development
+.env.production
+.env.test
+
+# Vite cache
+vite-cache/
+
+# NPM cache
+npm-cache/
+
+# Yarn cache
+.yarn/*
+.pnp.*
+
+# Editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+
+###############################
+#      🔥 GENERAL IGNORE      #
+###############################
+
+# Python temp
+__pycache__/
+
+# Mac system files
+*.DS_Store

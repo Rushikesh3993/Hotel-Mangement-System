@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+}
+
+/* Root normal */
+#root {
+  height: 100%;
+}
+
+/* Make footer always at the bottom of screen */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Add some bottom space so content doesn't touch footer edge */
+.page-body,
+.dashboard-container {
+  padding-bottom: 80px;
+}

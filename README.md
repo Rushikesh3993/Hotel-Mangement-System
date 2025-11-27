@@ -16,7 +16,6 @@ This project is perfect for **college submission, viva, internship, and portfoli
 - ASP.NET Core Web API
 - Entity Framework Core
 - SQL Server
-- LINQ
 
 ---
 

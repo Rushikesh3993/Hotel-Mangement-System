@@ -139,18 +139,25 @@ Includes:
 
 # 🖥 Running the Backend (ASP.NET Core)
 
-1️⃣ Open terminal inside **backend/**  
-2️⃣ Install dependencies:
+### **1️⃣ Open Project in Visual Studio**
+Backend located in `/backend`.
+
+Visual Studio automatically restores dependencies.
+
+### **2️⃣ Create Database Using EF Core (Package Manager Console)**
+
+Open **Package Manager Console**:
+
 ```
-dotnet restore
+Add-Migration Initial
+Update-Database
 ```
-3️⃣ Apply migrations:
+
+If you modify models later:
+
 ```
-dotnet ef database update
-```
-4️⃣ Run API:
-```
-dotnet run
+Add-Migration Something
+Update-Database
 ```
 
 API runs at:

@@ -1,6 +1,6 @@
 # 🏨 Hotel Management System  
 A full-stack **Hotel Management Web Application** built with **ASP.NET Core Web API** + **React (Vite)** + **SQL Server**.  
-This project is perfect for **college submission, viva, internship, and portfolio**.
+
 
 ---
 

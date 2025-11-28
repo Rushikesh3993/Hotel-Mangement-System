@@ -1,6 +1,5 @@
 # 🏨 Hotel Management System  
-A full-stack **Hotel Management Web Application** built with **ASP.NET Core Web API** + **React (Vite)** + **SQL Server**.  
-
+A full-stack **Hotel Management Web Application** built with **ASP.NET Core Web API** + **React (Vite)** + **SQL Server**.
 
 ---
 
@@ -42,32 +41,35 @@ HotelManagementSystem/
 
 # ✨ Features (Complete End-to-End)
 
-### ✔ **Room Management**
+### ✔ **Room Management** (FULL CRUD)
 - Add Room  
-- Edit Room  
-- Delete Room  
+- **Edit Room**  
+- **Delete Room**  
 - View Rooms  
 - Auto update room status to **Booked** when booking is created  
 
-### ✔ **Customer Management**
+### ✔ **Customer Management** (FULL CRUD)
 - Add Customer  
+- **Edit Customer**  
+- **Delete Customer**  
 - View Customers  
 
 ### ✔ **Booking Module**
 - Select Customer  
-- Select Room  
-- Select Dates  
+- Select only **Available** rooms  
+- Select Check-in / Check-out  
 - Prevents double booking  
 - Auto-updates room status  
-- Shows customer + room details  
+- Displays customer + room data  
+- Delete Booking (optional)
 
 ### ✔ **Dashboard**
 - Total Rooms  
 - Booked Rooms  
 - Available Rooms  
 - Total Customers  
-- Beautiful stats cards  
-- Welcome hero banner  
+- Stats Cards  
+- Welcome banner  
 - Footer  
 
 ---
@@ -128,35 +130,30 @@ DELETE  /api/Customers/{id}
 GET     /api/Bookings
 GET     /api/Bookings/{id}
 POST    /api/Bookings
+DELETE  /api/Bookings/{id}
 ```
 
 Includes:
 - Prevent double booking  
 - Auto-update room status  
-- Ready for frontend integration  
 
 ---
 
 # 🖥 Running the Backend (ASP.NET Core)
 
 ### **1️⃣ Open Project in Visual Studio**
-Backend located in `/backend`.
 
-Visual Studio automatically restores dependencies.
-
-### **2️⃣ Create Database Using EF Core (Package Manager Console)**
-
-Open **Package Manager Console**:
+### **2️⃣ Run Migrations Using Package Manager Console**
 
 ```
 Add-Migration Initial
 Update-Database
 ```
 
-If you modify models later:
+If new changes are made later:
 
 ```
-Add-Migration Something
+Add-Migration AnyName
 Update-Database
 ```
 
@@ -168,12 +165,12 @@ API runs at:
 
 # 🌐 Running the Frontend (React + Vite)
 
-1️⃣ Open terminal inside **frontend/**  
-2️⃣ Install frontend dependencies:
+### **1️⃣ Install Dependencies**
 ```
 npm install
 ```
-3️⃣ Start development server:
+
+### **2️⃣ Start Dev Server**
 ```
 npm run dev
 ```
@@ -184,14 +181,12 @@ Frontend runs at:
 
 ---
 
-# 📸 Screenshots 
+# 📸 Screenshots
 
 ### 🏠 Dashboard
 ![Dashboard](screenshots/Screenshot%202025-11-28%20012852.png)
 
-
 ---
-
 
 # 👨‍💻 Developer  
 **Rushikesh Mote**  
